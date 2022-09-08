@@ -1,0 +1,9 @@
+[Unit]
+Description=Prevents display idling in sway/wayland and prevents locking by swayidle.
+
+[Service]
+Type=simple
+ExecStart=/home/sauter/.config/sway/bin/wl_idle_inhibit.py
+
+[Install]
+WantedBy=multi-user.target
