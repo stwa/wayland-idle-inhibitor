@@ -68,9 +68,9 @@ def main() -> None:
     display.dispatch()
     display.roundtrip()
 
-    print("Inhibiting idle...")
+    print("Inhibiting idle... (Cancel with Ctrl+c)")
     done.wait()
-    print("Shutting down...")
+    print("\nShutting down...")
 
     inhibitor.destroy()
 
