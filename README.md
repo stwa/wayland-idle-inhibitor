@@ -1,4 +1,4 @@
 wayland-idle-inhibitor
 ======================
 
-Running wayland-idle-inhibitor will inhibit wayland from idling.
+An inhibitor that prevents wayland from idleing and locking the screen.
